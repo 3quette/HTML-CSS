@@ -1,0 +1,146 @@
+<style type="text/css">
+     body{
+      background-image: url(https://newcastlebeach.org/images/resort-3.jpg);
+      background-repeat: repeat-y;
+      background-position: top;
+          } 
+     #nav_bar{
+      list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #ebebeb;
+        position: sticky;
+        width: 100%;
+       }   
+     li a{
+      display: inline;
+      color: #4d4949;
+      float: left;
+      padding: 15px;
+      border-right: inset;
+      border-right-width: 1px;
+      border-right-color: #d9d7d7;
+      text-align: center;
+      text-decoration: none;
+        font-size: 18px;
+        font-family: "Didot", serif;
+         }
+      li a:hover {
+         background-color: #adadad;
+          }  
+      li.pointer{
+        cursor: pointer;
+      }   
+     .last_child{
+      float: right;
+     }
+     #header{
+      background-image: url(http://cdn9.dissolve.com/p/D120_89_030/D120_89_030_0004_600.jpg);
+      background-position: bottom;
+      height: 100px;
+      line-height: 0.6;
+      }
+      #slogan{
+        color: #e3e8e4;
+        font-size: 30px;
+        font-family: "Lucida Handwriting", cursive;
+        float: right;
+        margin-right: 30px;
+        line-height: 1;
+        margin-right: 150px;
+      }
+       #logo{
+        height: 100px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+       }
+       #picture{
+       	margin-top: 5px;
+
+       }
+       #about_conatainer{
+       	background:rgba(0,0,0,0.7);
+        margin-top: 0;
+        padding-bottom:20%;
+        padding-top: 20px;
+       }
+
+      .head{
+        padding-left: 10px;
+     	color: #ffffff;
+        }
+
+        .about_content{
+         padding-left: 10px;
+         padding-right: 10px;
+          color: #ffffff;
+          font-size: 17px;
+         }
+
+     #footer{
+      background-color: #e6e6e6;
+      padding-bottom:5%;
+      margin: 10px 0% 0% 0%;
+
+     }
+     #footer_logo{
+      border-bottom: 1px solid #adadad;
+     }
+     #footer_links{
+      text-align: center;
+     }
+     #footer_content{
+      margin-top: 10px;
+      width: 100%;
+     }
+     .footer_heads{
+      font-size: 20px;
+      }
+     #rights{
+      margin-top: 70px;
+      font-size: 15px;
+     } 
+     #picture{
+      position: relative;
+     }
+     #text{
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      background:rgba(0,0,0,0.6);
+      color: #ffffff;
+      padding:20px;
+     }
+     #link{
+      position: absolute;
+      bottom: 20px;
+      right: 15px;
+      background:rgba(0,0,0,0.6);
+      color: #ffffff;
+      padding: 20px;
+     }
+     a{
+      color: #ffffff;
+     }
+    #about_head{
+      background: rgba(0,0,0,0.6);
+      width: 30%;
+      border-style: solid;
+      border-color: #dff230;
+    }
+    #about_us_head{
+      color: #ffffff;
+      font-size: 55px;
+    }
+    .about_images{
+      float: right;
+      border-style: solid;
+      border-color: #dff230;
+    }
+   
+    
+
+
+
+  </style>

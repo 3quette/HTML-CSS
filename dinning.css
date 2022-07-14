@@ -1,0 +1,435 @@
+<style>
+body{
+		background-image: url(https://newcastlebeach.org/images/resort-3.jpg);
+		background-repeat: repeat-y;
+        background-position: top;
+	}
+	#nav_bar{
+      list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #ebebeb;
+        position: sticky;
+        width: 100%;
+       }   
+       #header{
+      background-image: url(http://cdn9.dissolve.com/p/D120_89_030/D120_89_030_0004_600.jpg) ;
+      background-position: bottom;
+      height: 100px;
+      line-height: 0.6;
+      }
+      #logo{
+        height: 100px;
+        float: left;
+        padding-left: 20px;
+        padding-bottom: 20px;
+       }
+      #slogan{
+        color: #e3e8e4;
+        font-size: 30px;
+        font-family: "Lucida Handwriting", cursive;
+        float: left;
+        margin-right: 30px;
+        line-height: 1;
+        margin-right: 150px;
+      }
+      li a{
+      display: inline;
+      color: #4d4949;
+      float: left;
+      padding: 15px;
+      border-right: inset;
+      border-right-width: 1px;
+      border-right-color: #d9d7d7;
+      text-align: center;
+      text-decoration: none;
+        font-size: 18px;
+        font-family: "Didot", serif;
+         }
+         li a:hover {
+  background-color: #adadad;
+          }   
+          li.pointer{
+            cursor: pointer;
+          }  
+     .last_child{
+      float: right;}
+
+
+
+      .rest{
+        
+      }
+      #first_img_set{
+      	margin-top: 155px;
+      	margin-left: 20px;
+      	float: left;
+      	border: solid 2px;
+      	border-color: #94B1B6 ;
+      }
+      #start_set{
+      	margin-top: 30px;
+      	padding-right: 20px;
+      	padding-top: 20px;
+        float: left;
+        margin-left: 60px;
+        margin-bottom: 30px;
+      }
+
+      #starting_heading{
+        font-family: Gill Sans MT, Gill Sans, My Gill Sans, sans-serif;
+        color: #3B2363 ;
+        float: right;
+      }
+      #first_para{
+        font-family: "TheSans","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        color: #21113B;
+         float: right;
+         margin-left: 10px;
+      }
+      #explore_setting{
+      	 background:rgba(197,197,197,0.7);
+      }
+      #explore{
+        margin-right: 100px;
+        font-family: Gill Sans MT, Gill Sans, My Gill Sans, sans-serif;
+        color: #3B2363 ;
+        font-size: 30px;
+        width: 100%;
+      }
+     #second{
+     	margin-top: 50px;
+     	margin-left: 90px;
+     	border: solid 2px;
+      border-color: #94B1B6 ;
+      margin-bottom: 20px;
+      margin-right: 40px;
+     }
+     #Go{
+     	margin-top: 50px;
+     	float: left;
+     	margin-left: 40px;
+     	
+     }
+      #heading_healthy{
+      	margin-top: 100px;
+        font-family: Gill Sans MT, Gill Sans, My Gill Sans, cursive;
+        color: #3B2363 ;
+        font-size: 30px;
+      }
+      #healthy_para{
+        font-family: "TheSans","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        color: #21113B;
+      }
+      #head_recipes{
+        margin-top: 40px;
+        font-family: Gill Sans MT, Gill Sans, My Gill Sans, cursive;
+        color: #3B2363 ;
+        font-size: 30px;
+        margin-left: 40px;
+      }
+      #reci_p{
+        font-family: "TheSans","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        color: #21113B;
+        margin-left: 40px;
+      }
+
+
+      #tangy_set{
+        border: 2px solid ;
+        border-color: #adadad;
+        position: relative;
+        margin-left: 40px;
+      }
+      #tangy{
+        position: absolute;
+        bottom: 0;
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5);
+        width: 350px;
+        color: white;
+      }
+      #pancakes_set{
+        border: 2px solid ;
+        border-color: #adadad;
+        position: relative;
+        margin-left: 50px;
+      }
+      #pancakes{
+        position: absolute;
+        bottom: 0;
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5);
+        width: 350px;
+        color: white;
+      }
+      #muesli_set{
+        border: 2px solid ;
+        border-color: #adadad;
+        position: relative;
+        margin-left: 50px;
+      }
+      #muesli{
+        position: absolute;
+        bottom: 0;
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5);
+        width: 350px;
+        color: white;
+      }
+      #noodle_soup_set{
+        border: 2px solid ;
+        border-color: #adadad;
+        position: relative;
+        margin-left: 40px;
+        margin-top: 26px;
+      }
+      #noodle_soup{
+        position: absolute;
+        bottom: 0;
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5);
+        width: 350px;
+        color: white;
+      }
+      #salad_set{
+        border: 2px solid ;
+        border-color: #adadad;
+        position: relative;
+        margin-left: 50px;
+        margin-top: 26px;
+      }
+      #salad{
+        position: absolute;
+        bottom: 0;
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5);
+        width: 350px;
+        color: white;
+      }
+      #sugar_pea_soup_set{
+        border: 2px solid ;
+        border-color: #adadad;
+        position: relative;
+        margin-left: 50px;
+        margin-top: 26px;
+      }
+      #sugar_pea_soup{
+        position: absolute;
+        bottom: 0;
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5);
+        width: 350px;
+        color: white;
+      }
+
+
+      #chocolate{
+        margin-left: 40px;
+      }
+      #chocolate_heading{
+        margin-top: 50px;
+        font-family: Gill Sans MT, Gill Sans, My Gill Sans, cursive;
+        color: #3B2363 ;
+        font-size: 30px;
+      }
+      #chocolate_para{
+        font-family: "TheSans","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 19px;
+        font-weight: 400;
+        color: #21113B;
+      }
+      #free_set{
+        border: 2px solid ;
+        border-color:#6B1517;
+        margin-left: 50px;
+        position: relative;
+        width: 450px;
+        height: 450px;
+      }
+      #free{
+        position: absolute;
+        bottom: 0;
+        height: 450px;
+        width: 450px;
+        color: white ;
+        background-color: rgba(82, 9, 42,0.3);
+        font-size: 30px;
+      }
+      #free_heading{
+        padding-top: 150px;
+      }
+      #cocoa_set{
+        border: 2px solid ;
+        border-color: #6B1517;
+        margin-left: 100px;
+        position: relative;
+        width: 450px;
+        height: 450px;
+      }
+      #cocoa{
+        position: absolute;
+        bottom: 0;
+        height: 450px;
+        width: 450px;
+        color: white ;
+        background-color: rgba(82, 9, 42,0.3);
+        font-size: 30px;
+      }
+      #cocoa_heading{
+        padding-top: 150px;
+      }
+
+      #signature{
+        margin-left: 40px;
+      }
+      #signature_heading{
+        margin-top: 50px;
+        font-family: Gill Sans MT, Gill Sans, My Gill Sans, cursive;
+        color: #3B2363 ;
+        font-size: 30px;
+      }
+      #signature_para{
+        font-family: "TheSans","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 19px;
+        font-weight: 400;
+        color: #21113B;
+      }
+
+      #zurich_set{
+        border: 2px solid ;
+        border-color: #EADEDE;
+        margin-left: 130px;
+        position: relative;
+        width: 400px;
+        height: 300px;
+      }
+      #zurich{
+        position: absolute;
+        bottom: 0;
+        height: 300px;
+        width: 400px;
+        color: white ;
+        background-color: rgba(0, 0, 0, 0.3);
+        font-size: 15px;
+      }
+      #zurich_heading{
+        padding-top: 90px;
+      }
+      #b1{
+      
+      }
+      #riz_set{
+        border: 2px solid ;
+        border-color: #EADEDE;
+        margin-left: 90px;
+        position: relative;
+        width: 400px;
+        height: 300px;
+      }
+      #riz{
+        position: absolute;
+        bottom: 0;
+        height: 300px;
+        width: 400px;
+        color: white ;
+        background-color: rgba(0, 0, 0, 0.3);
+        font-size: 15px;
+      }
+      #riz_heading{
+        padding-top: 90px;
+      }
+      #beef_set{
+        border: 2px solid ;
+        border-color: #EADEDE;
+        margin-top: 80px;
+        margin-left: 130px;
+        position: relative;
+        width: 400px;
+        height: 300px;
+      }
+      #beef{
+        position: absolute;
+        bottom: 0;
+        height: 300px;
+        width: 400px;
+        color: white ;
+        background-color: rgba(0, 0, 0, 0.3);
+        font-size: 15px;
+      }
+      #beef_heading{
+        padding-top: 90px;
+      }
+      #cake_set{
+        border: 2px solid ;
+        border-color: #EADEDE;
+        margin-top: 80px;
+        margin-left: 90px;
+        position: relative;
+        width: 400px;
+        height: 300px;
+      }
+      #cake{
+        position: absolute;
+        bottom: 0;
+        height: 300px;
+        width: 400px;
+        color: white ;
+        background-color: rgba(0, 0, 0, 0.3);
+        font-size: 15px;
+      }
+      #cake_heading{
+        padding-top: 90px;
+      }
+
+      #footer{
+      background-color: #e6e6e6;
+      padding-bottom:5%;
+      margin: 10px 0% 0% 0%;
+
+     }
+     #footer_logo{
+      border-bottom: 1px solid #adadad;
+     }
+     #footer_links{
+      text-align: center;
+     }
+     #footer_content{
+      margin-top: 10px;
+      width: 100%;
+     }
+     .footer_heads{
+      font-size: 20px;
+      }
+     #rights{
+      margin-top: 70px;
+      font-size: 15px;
+
+     } 
+      #sign_up{
+        float: right;
+        margin-right: 10px;
+        margin-bottom: 20px;
+      }
+      #sign_up_button{
+        margin-top: 10px;
+        background-color:#cc0a0a;
+        font-size: 15px;
+        color: #ffffff;
+
+      }
+      #subscription{
+        font-size: 20px;
+
+      }
+    
+
+
+</style>

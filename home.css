@@ -1,0 +1,163 @@
+<style type="text/css">
+     body{
+     	background-image: url(https://newcastlebeach.org/images/resort-3.jpg);
+     	background-repeat: repeat-y;
+     	background-position: top;
+          }	
+     #nav_bar{
+     	  list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #ebebeb;
+        position: sticky;
+        width: 100%;
+       }   
+     li a{
+     	display: inline;
+     	color: #4d4949;
+     	float: left;
+     	padding: 15px;
+     	border-right: inset;
+     	border-right-width: 1px;
+     	border-right-color: #d9d7d7;
+     	text-align: center;
+     	text-decoration: none;
+        font-size: 18px;
+        font-family: "Didot", serif;
+         }
+      li a:hover {
+  background-color: #adadad;
+          } 
+       li.pointer{
+        cursor: pointer;
+      }         
+     .last_child{
+     	float: right;
+     }
+     #header{
+     	background-image: url(http://cdn9.dissolve.com/p/D120_89_030/D120_89_030_0004_600.jpg);
+     	background-position: bottom;
+     	height: 100px;
+      line-height: 0.6;
+      }
+      #slogan{
+        color: #e3e8e4;
+        font-size: 30px;
+        font-family: "Lucida Handwriting", cursive;
+        float: right;
+        margin-right: 30px;
+        line-height: 1;
+        margin-right: 150px;
+      }
+       #logo{
+       	height: 100px;
+       	padding-left: 20px;
+       	padding-bottom: 20px;
+       }
+     button{
+      background:rgba(0,0,0,0.6);
+      font-family: "Brush Script MT", cursive;
+      font-size: 20px;
+      border-radius: 5px;
+      border-color: #dff230;
+      color: #ffffff;
+
+    }
+    #video{
+        margin-top: 5px;
+
+       }
+    #welcome{
+      background:rgba(0,0,0,0.7);
+      padding-top: 25px;
+      margin-top: 10px;
+      padding-bottom: 30px;
+      border: solid #dff230;
+    }
+    #caption{
+      font-size: 50px;
+      margin-bottom: 0px;
+      color: #ffffff;
+     text-align: center;
+     margin-left: 5px;
+    }
+    .home_para{
+      color: #ededed;
+     text-align: left;
+     margin-left: 5px;
+     font-size: 25px;
+    }
+    #slide{
+      padding-bottom: 15px;
+      padding-top: 10px;
+      width: 100%;
+    }
+     #family_resort{
+       background:rgba(0,0,0,0.7);
+       height: 400px;
+     }
+
+     .head{
+      padding-left: 10px;
+     	color: #ffffff;
+     	font-size: 35px;
+     }
+       .para{
+          padding-left: 10px;
+          font-size: 17px;
+       	   color: #ffffff;
+         }
+       #golf_course{
+        background:rgba(0,0,0,0.7);
+       height: 400px;
+     }  
+     #amusement{
+         background:rgba(0,0,0,0.7);
+       height: 400px;
+     }  
+    #footer{
+      background-color: #e6e6e6;
+      padding-bottom:5%;
+      margin: 10px 0% 0% 0%;
+
+     }
+     #footer_logo{
+      border-bottom: 1px solid #adadad;
+     }
+     #footer_links{
+      text-align: center;
+     }
+     #footer_content{
+      margin-top: 10px;
+      width: 100%;
+     }
+     .footer_heads{
+      font-size: 20px;
+      }
+     #rights{
+      margin-top: 70px;
+      font-size: 15px;
+      } 
+      #welcome_head{
+         background: rgba(0,0,0,0.6);
+         width: 50%;
+         padding-top: 20px;
+         padding-bottom: 20px;  
+        border-style: solid;
+        border-color: #dff230;
+
+      }
+      
+      .home_pictures{
+      	float: right;
+      	margin-right: 20px;
+      border-style: solid;
+      border-color: #dff230;
+      }
+    
+
+
+    
+
+	</style>

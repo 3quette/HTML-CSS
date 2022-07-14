@@ -1,0 +1,264 @@
+<style>
+body{
+		background-image: url(https://newcastlebeach.org/images/resort-3.jpg);
+		background-repeat: repeat-y;
+        background-position: top;
+	}
+	#nav_bar{
+      list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #ebebeb;
+        position: sticky;
+        width: 100%;
+       }   
+       #header{
+      background-image: url(http://cdn9.dissolve.com/p/D120_89_030/D120_89_030_0004_600.jpg) ;
+      background-position: bottom;
+      height: 100px;
+      line-height: 0.6;
+      }
+      #logo{
+        height: 100px;
+        float: left;
+        padding-left: 20px;
+        padding-bottom: 20px;
+       }
+      #slogan{
+        color: #e3e8e4;
+        font-size: 30px;
+        font-family: "Lucida Handwriting", cursive;
+        float: left;
+        margin-right: 30px;
+        line-height: 1;
+        margin-right: 150px;
+      }
+      li a{
+      display: inline;
+      color: #4d4949;
+      float: left;
+      padding: 15px;
+      border-right: inset;
+      border-right-width: 1px;
+      border-right-color: #d9d7d7;
+      text-align: center;
+      text-decoration: none;
+        font-size: 18px;
+        font-family: "Didot", serif;
+         }
+         li a:hover {
+  background-color: #adadad;
+          }     
+     .last_child{
+      float: right;
+     }
+     
+    #resort{
+    	font-family: "Lucida Handwriting", cursive;
+    	font-size: 35px;
+
+    }
+    #resort_set{
+    	margin-left: 5px;
+    	background-color: #5AC1D1 ;
+    	width: 15%;
+    	height: 50px;
+    	border-top-left-radius: 8px;
+    	border-bottom-right-radius: 8px;
+    }
+      #images_resort{
+        width: 100%;
+        
+      }
+      #img1{
+        border:solid #edebeb 2px;
+        padding: 0px;
+        margin: 0px; 
+      }
+      #img2{
+        border: solid #edebeb 2px;
+        padding: 0px;
+        /*margin-top: 27px; 
+        margin-bottom: 27px;*/
+      }
+      #img3{
+        border: solid #edebeb 2px;
+        padding: 0px;
+        margin: 0px; 
+
+      }
+      #img4{
+        border: solid #edebeb 2px;
+        padding: 0px;
+        margin: 0px; 
+
+      }
+      #img5{
+        border: solid #edebeb 2px;
+        padding: 0px;
+        margin: 0px; 
+
+      }
+      #img6{
+        border: solid #edebeb 2px;
+        padding: 0px;
+        margin: 0px; 
+      }
+      #more1{
+      	font-family: "Courier New", Courier, monospace;
+      	width: 200px;
+      	font-size: 20px;
+      	margin-left: 5px;
+      	background-color: #BBC5C7 ;
+      	border-top-left-radius: 5px;
+    	border-bottom-right-radius: 5px;
+      }
+
+      #villa{
+      font-family: "Lucida Handwriting", cursive;
+      font-size: 35px;
+      }
+      #villa_set{
+      	margin-left: 5px;
+      	background-color: #5AC1D1 ;
+    	width: 13%;
+    	height: 50px;
+    	border-top-left-radius: 8px;
+    	border-bottom-right-radius: 8px;
+      }
+      #images_villa{
+        width: 100%;
+      }
+      #img7{
+        border: solid #edebeb 2px;
+        padding: 0px;
+        margin: 0px; 
+        width: 100%;
+      }
+      #img8{
+        border: solid #edebeb 2px;
+        padding: 0px;
+        width: 100%;
+        margin: 0px; 
+      }
+      #img9{
+        border: solid #edebeb 2px;
+        padding: 0px;
+        margin: 0px; 
+      }
+      #img10{
+        border: solid #edebeb 2px;
+        padding: 0px;
+        margin: 0px; 
+
+      }
+      #img11{
+        border: solid #edebeb 2px;
+        padding: 0px;
+        margin: 0px; 
+
+      }
+      #img12{
+        border: solid #edebeb 2px;
+        padding: 0px;
+        margin: 0px; 
+        object-fit: cover;
+      }
+      #more2{
+      	font-family: "Courier New", Courier, monospace;
+      	width: 200px;
+      	font-size: 20px;
+      	margin-left: 5px;
+      	background-color: #BBC5C7 ;
+      	border-top-left-radius: 5px;
+    	border-bottom-right-radius: 5px;
+      }
+
+      #rooms{
+      font-family: "Lucida Handwriting", cursive;
+      font-size: 35px;
+      }
+      #rooms_set{
+      	margin-left: 5px;
+      	background-color: #5AC1D1 ;
+    	width: 13%;
+    	height: 50px;
+    	border-top-left-radius: 8px;
+    	border-bottom-right-radius: 8px;
+      }
+      #images_rooms{
+        width: 100%;
+      }
+      #img13{
+        border:solid #edebeb 2px;
+        padding: 0px;
+        margin: 0px; 
+        object-fit: cover;
+      }
+      #img14{
+        border:solid #edebeb 2px;
+        padding: 0px;
+        margin: 0px; 
+        object-fit: cover;
+      }
+      #img15{
+        border:solid #edebeb 2px;
+        padding: 0px;
+        margin: 0px; 
+        object-fit: cover;
+      }
+       #img16{
+        border:solid #edebeb 2px;
+        padding: 0px;
+        margin: 0px; 
+        object-fit: cover;
+      }
+       #img17{
+        border:solid #edebeb 2px;
+        padding: 0px;
+        margin: 0px; 
+        object-fit: cover;
+      }
+       #img18{
+        border:solid #edebeb 2px;
+        padding: 0px;
+        margin: 0px; 
+        object-fit: cover;
+      }
+      #more3{
+      	font-family: "Courier New", Courier, monospace;
+      	width: 200px;
+      	font-size: 20px;
+      	margin-left: 5px;
+      	background-color: #BBC5C7 ;
+      	border-top-left-radius: 5px;
+    	border-bottom-right-radius: 5px;
+      }
+
+      #footer{
+      background-color: #e6e6e6;
+      padding-bottom:5%;
+      margin: 10px 0% 0% 0%;
+
+     }
+     #footer_logo{
+      border-bottom: 1px solid #adadad;
+     }
+     #footer_links{
+      text-align: center;
+     }
+     #footer_content{
+      margin-top: 10px;
+      width: 100%;
+     }
+     .footer_heads{
+      font-size: 20px;
+      }
+     #rights{
+      margin-top: 70px;
+      font-size: 15px;
+
+     } 
+
+</style>
